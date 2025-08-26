@@ -1,4 +1,5 @@
 <?php
+
 if (isset($_POST['submit'])) {
     $category_id = $_POST['category_id'];
     $family_id = $_POST['family_id'];
@@ -29,6 +30,7 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
+<?php require 'nav.php'; ?>
     <div class="container">
         <div class="card" style="width: 700px; margin: 50px auto; ">
             <div class="card-header">

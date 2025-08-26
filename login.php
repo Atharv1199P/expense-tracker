@@ -40,6 +40,7 @@ if (isset($_POST['login'])) {
 
 <body>
     <div class="container">
+        <p class="text-center fs-1 fw-bold mt-4">💰 Expense Tracker</p>
          <div class="card" style="width: 700px; margin: 50px auto; ">
         <div class="card-header">
             <h1>Login</h1>
@@ -60,7 +61,7 @@ if (isset($_POST['login'])) {
                 <button type="submit" name="login" class="btn btn-primary">Login</button>
             </div>
         </form>
-        <p>Add family to expense tracker? <a href="insertf.php">Add Family</a></p>
+        <p>Add family to expense tracker? <a href="addfamily.php">Add Family</a></p>
         <p>Don't have an account? <a href="register.php">Register here</a></p>
         <p><a href="forgotpassword.php">Forgot Password?</a></p>
 
