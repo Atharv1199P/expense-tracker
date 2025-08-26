@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <div class="card" style="width: 700px; margin: 50px auto; ">
 
             <div class="card-header">

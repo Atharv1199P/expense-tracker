@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
 
 <body>
 <?php require 'nav.php'; ?>
-    <div class="container">
+    <div class="container mt-5">
         <div class="card" style="width: 700px; margin: 50px auto; ">
             <div class="card-header">
                 <h1>Category Registration</h1>

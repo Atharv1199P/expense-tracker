@@ -39,11 +39,13 @@ if (isset($_SESSION['user_id'])) {
 
 <body>
     <?php require 'nav.php'; ?>
-    <div class="container">
+    <div class="container mt-5">
         <div class="header">
-            <h2>Expenses </h2>
+            <h1>Dashboard</h1>
             <p>Welcome, <?php echo $username; ?>!</p>
         </div>
+        
+
         <div class="content">
             <h2>Expenses</h2>
             <table border="1" class="table table-bordered table-striped">
@@ -63,6 +65,9 @@ if (isset($_SESSION['user_id'])) {
                     echo "<td>" . $row['amount'] . "</td>";
                     echo "<td>" . $row['expense_date'] . "</td>";
                     echo "</tr>";
+                }
+                if (mysqli_num_rows($query) == 0) {
+                    echo "<tr class='table-light'><td colspan='5'>No expenses found.</td></tr>";
                 }
                 ?>
             </table>

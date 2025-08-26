@@ -45,7 +45,7 @@ if (isset($_POST['filter'])) {
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <div class="card" style="width: 700px; margin: 50px auto; ">
             <div class="card-header">
                 <h1>Filter Expenses by Date</h1>

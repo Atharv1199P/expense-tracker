@@ -39,7 +39,7 @@ if (isset($_POST['login'])) {
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <p class="text-center fs-1 fw-bold mt-4">💰 Expense Tracker</p>
          <div class="card" style="width: 700px; margin: 50px auto; ">
         <div class="card-header">
