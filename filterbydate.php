@@ -53,9 +53,6 @@ if (isset($_POST['filter'])) {
             <div class="card-body">
                 <p>Please enter the start and end dates to filter expenses.</p>
 
-                <div class="header">
-                    <h1>Filter Expenses by Date</h1>
-                </div>
                 <form action="" method="post">
                     <div class="mb-3 mt-3">
                         <label for="start_date" class="form-label">Start Date:</label>

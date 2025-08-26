@@ -102,8 +102,6 @@ if (isset($_POST['filter'])) {
                         echo "</tr>";
                     }
                     echo "</table>";
-                } else {
-                    echo "No expenses found for the selected criteria.";
                 }
                 ?>
 

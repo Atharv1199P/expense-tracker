@@ -56,6 +56,8 @@ if (isset($_POST['submit'])) {
                     <div class="mb-3">
                         <button type="submit" name="submit" class="btn btn-success">Submit</button>
                     </div>
+                    <div class="mb-3">
+                        <a href="login.php">Back to Login</a>
                 </form>
             </div>
 </body>
