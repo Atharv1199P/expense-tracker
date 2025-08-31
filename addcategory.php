@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
 
                     <div class="mb-3 mt-3">
                         <label for="category_id" class="form-label">Category ID:</label>
-                        <input type="text" id="category_id" name="category_id" class="form-control" required>
+                        <input type="text" id="category_id" name="category_id" class="form-control">
                     </div>
                     <div class="mb-3">
                         <label for="family_id" class="form-label">Family ID:</label>
@@ -68,6 +68,9 @@ if (isset($_POST['submit'])) {
                 <div class="mt-3">
                     <div class="mb-3">
                         <a href="dashboard.php" class="btn btn-secondary">Back to Dashboard</a>
+                    </div>
+                    <div>
+                        <a href="showcat.php" class="btn btn-info">View Categories</a>
                     </div>
                     <p>After adding a category, you can <a href="inserte.php">add expenses</a> under this category.</p>
                     <p class="mt-3">Note: Ensure that the Category ID is unique.</p>

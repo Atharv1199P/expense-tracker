@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
                 <form action="" method="post">
                     <div class="mb-3 mt-3">
                         <label for="expense_id" class="form-label">Expense ID:</label>
-                        <input type="text" id="expense_id" name="expense_id" class="form-control" required>
+                        <input type="text" id="expense_id" name="expense_id" class="form-control">
                     </div>
                     <div class="mb-3">
                         <label for="family_id" class="form-label">Family ID:</label>
